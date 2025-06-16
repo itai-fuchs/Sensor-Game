@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\itai\\source\\repos\\Sensor Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|c:\\users\\itai\\source\\repos\\sensor game\\sensors\\audio sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|solutionrelative:sensors\\audio sensor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|C:\\Users\\itai\\source\\repos\\Sensor Game\\sensors\\sensor interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|solutionrelative:sensors\\sensor interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|C:\\Users\\itai\\source\\repos\\Sensor Game\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|solutionrelative:game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|C:\\Users\\itai\\source\\repos\\Sensor Game\\agents\\regular agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|solutionrelative:agents\\regular agent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|C:\\Users\\itai\\source\\repos\\Sensor Game\\agents\\agent interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|solutionrelative:agents\\agent interface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|C:\\Users\\itai\\source\\repos\\Sensor Game\\factories\\agentfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|solutionrelative:factories\\agentfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|C:\\Users\\itai\\source\\repos\\Sensor Game\\factories\\sensorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|solutionrelative:factories\\sensorfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|C:\\Users\\itai\\source\\repos\\Sensor Game\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C10E223F-96AD-4F0F-98DA-ECBCD58756C8}|Sensor Game.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Game.cs",
+              "RelativeDocumentMoniker": "Game.cs",
+              "ToolTip": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Game.cs",
+              "RelativeToolTip": "Game.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAawDwAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:42:06.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Agent interface.cs",
+              "DocumentMoniker": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Agents\\Agent interface.cs",
+              "RelativeDocumentMoniker": "Agents\\Agent interface.cs",
+              "ToolTip": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Agents\\Agent interface.cs",
+              "RelativeToolTip": "Agents\\Agent interface.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwCoAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:49:20.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Regular Agent.cs",
+              "DocumentMoniker": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Agents\\Regular Agent.cs",
+              "RelativeDocumentMoniker": "Agents\\Regular Agent.cs",
+              "ToolTip": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Agents\\Regular Agent.cs",
+              "RelativeToolTip": "Agents\\Regular Agent.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:40:32.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AgentFactory.cs",
+              "DocumentMoniker": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Factories\\AgentFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\AgentFactory.cs",
+              "ToolTip": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Factories\\AgentFactory.cs",
+              "RelativeToolTip": "Factories\\AgentFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:46:27.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sensor interface.cs",
+              "DocumentMoniker": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Sensors\\Sensor interface.cs",
+              "RelativeDocumentMoniker": "Sensors\\Sensor interface.cs",
+              "ToolTip": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Sensors\\Sensor interface.cs",
+              "RelativeToolTip": "Sensors\\Sensor interface.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:40:29.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Audio Sensor.cs",
+              "DocumentMoniker": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Sensors\\Audio Sensor.cs",
+              "RelativeDocumentMoniker": "Sensors\\Audio Sensor.cs",
+              "ToolTip": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Sensors\\Audio Sensor.cs",
+              "RelativeToolTip": "Sensors\\Audio Sensor.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA6wAsAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:41:54.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SensorFactory.cs",
+              "DocumentMoniker": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Factories\\SensorFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\SensorFactory.cs",
+              "ToolTip": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Factories\\SensorFactory.cs",
+              "RelativeToolTip": "Factories\\SensorFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T10:44:30.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\itai\\source\\repos\\Sensor Game\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-16T11:46:29.772Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

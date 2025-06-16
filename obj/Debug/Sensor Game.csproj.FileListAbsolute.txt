@@ -1,0 +1,8 @@
+C:\Users\itai\source\repos\Sensor Game\obj\Debug\Sensor Game.csproj.AssemblyReference.cache
+C:\Users\itai\source\repos\Sensor Game\obj\Debug\Sensor Game.csproj.CoreCompileInputs.cache
+C:\Users\itai\source\repos\Sensor Game\bin\Debug\Sensor Game.exe.config
+C:\Users\itai\source\repos\Sensor Game\bin\Debug\Sensor Game.exe
+C:\Users\itai\source\repos\Sensor Game\bin\Debug\Sensor Game.pdb
+C:\Users\itai\source\repos\Sensor Game\obj\Debug\Sensor Game.exe
+C:\Users\itai\source\repos\Sensor Game\obj\Debug\Sensor Game.pdb
+C:\Users\itai\source\repos\Sensor Game\obj\Debug\Sensor Game.exe.config
