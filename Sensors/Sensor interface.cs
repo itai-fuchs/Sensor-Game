@@ -7,15 +7,23 @@ using System.Threading.Tasks;
 namespace Sensor_Game
 {
 
-    public enum sensors
+    public enum sensorsType
     {
-        Audio
+        Audio,
+        Magnetic,
+        Motion,
+        Pulse,
+        Thermal,
+        Signal,
+        Light,
 
     }
     public interface ISensor
     {
-        sensors Kind { get;set;}
-        int NumOfActivate { get; set; }
-       void activation();
+        sensorsType Kind { get; set; }
+        bool Activate { get; set; }
+        void RevealsAgentInfo(IranAgentBase agent);
+        void RevealsSensor(IranAgentBase agent);
+        void activation();
     }
 }

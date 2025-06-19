@@ -1,26 +1,81 @@
-﻿using System;
+﻿using Sensor_Game.Agents;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Sensor_Game
 {
-    internal static class AgentsFctory
+    internal static class AgentFactory
     {
         private static readonly Random rnd = new Random();
-        static List<IIranAgent> agentList = new List<IIranAgent>()
+        static List<IranAgentBase> agentList = new List<IranAgentBase>()
+
             {
-                new RegularAgent(),
+                new FootSoldier(),
+                new OrganizationLeader(),
+                new SeniorCommander(),
+                new SquadLeader(),
+                new SeniorCommander()
+
             };
-        public static List<IIranAgent> GetAllAgents()
+
+        public static List<sensorsType> CopySensorsWeakness;
+        public static void PrintExposedStatus(IranAgentBase agent)
+        {
+           
+            Console.WriteLine($"{agent.NumRelevantFolowingSensors}/{agent.NumSensorToExposed}");
+        }
+        public static bool CheckMatch(IranAgentBase agent, ISensor sensor)
+        {
+            return CopySensorsWeakness.Contains(sensor.Kind);
+        }
+
+
+        public static void AddFolowingSensor(ISensor sensor,IranAgentBase agent)
+        {
+            
+            if (sensor.Activate && CheckMatch(agent, sensor))
+            {
+                agent.FollowingSensors.Add(sensor);
+                CopySensorsWeakness.Remove(sensor.Kind);
+                agent.NumRelevantFolowingSensors++;
+                Console.WriteLine("sensor add sucssefuly");
+
+            }
+            else Console.WriteLine("sensor not add");
+            PrintExposedStatus(agent);
+
+        }
+        public static void RemoveRandFollowingSensor(IranAgentBase agent)
+        {
+            if (agent.FollowingSensors.Count == 0)
+                return;
+
+            int index = rnd.Next(agent.FollowingSensors.Count);
+            agent.FollowingSensors.RemoveAt(index);
+            agent.NumRelevantFolowingSensors--;
+            
+        }
+
+
+        public static void CreateWeaknessSensorList(IranAgentBase agent)
+        {
+            for (int i = 0; i < agent.NumSensorToExposed; i++)
+            {
+                agent.WeaknessSensorList.Add(SensorFactory.GetRandSensor().Kind);
+            }
+            CopySensorsWeakness = new List<sensorsType>(agent.WeaknessSensorList);
+
+        }
+
+        public static List<IranAgentBase> GetAllAgents()
         {
 
 
             return agentList;
         }
 
-        public static IIranAgent GetRandAgent()
+        public static IranAgentBase GetRandAgent()
         {
 
             int index = rnd.Next(0, agentList.Count);
@@ -29,8 +84,9 @@ namespace Sensor_Game
 
         }
 
-
     }
+
+
 }
 
 

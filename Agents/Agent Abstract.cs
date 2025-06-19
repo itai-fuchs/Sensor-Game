@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
-using Sensor_Game;
-using System.Linq;
+
 
 namespace Sensor_Game
 {
@@ -9,48 +8,59 @@ namespace Sensor_Game
     /// </summary>
     public enum RankType
     {
-        Regular
+        FootSoldier,
+        SquadLeader,
+        SeniorCommander,
+        OrganizationLeader,
     }
 
     /// <summary>
     /// Interface defining the contract for Iran agents.
     /// </summary>
-    public interface IIranAgent
+    public abstract class IranAgentBase
     {
         /// <summary>
         /// The rank/type of the agent.
         /// </summary>
-        RankType Rank { get; set; }
+        public RankType Rank { get; protected set; }
 
         /// <summary>
         /// Number of sensors required to expose the agent.
         /// </summary>
-        int NumSensorToExposed { get; set; }
+        public int NumSensorToExposed { get; protected set; }
+        public int NumRelevantFolowingSensors { get;set; }
 
         /// <summary>
         /// List of sensors the agent is currently following.
         /// </summary>
-        List<ISensor> FollowingSensors { get; set; }
+        public List<ISensor> FollowingSensors { get; set; }
 
         /// <summary>
         /// List of sensors that represent the agent's weaknesses.
         /// </summary>
-        List<ISensor> WeaknessSensorList { get; set; }
+        public List<sensorsType> WeaknessSensorList { get; set; }
 
-        /// <summary>
-        /// Counts how many followed sensors are relevant to the agent's weaknesses.
-        /// </summary>
-        int RelevantFollowingSensor();
+        
 
-        /// <summary>
-        /// Initializes the agent's weakness sensor list.
-        /// </summary>
-        void CreateWeaknessSensorList();
+        public IranAgentBase()
+        {
+            FollowingSensors = new List<ISensor>();
+            WeaknessSensorList = new List<sensorsType>();
+            NumRelevantFolowingSensors = 0;
+        }
+        
 
         /// <summary>
         /// Checks if the agent is exposed based on followed sensors and weaknesses.
         /// </summary>
-        bool IsExposed();
-        void PrintExposedStatus();
+        public bool IsExposed()
+        {
+            return NumRelevantFolowingSensors >NumSensorToExposed;
+
+        }
+
+
+
+
     }
 }

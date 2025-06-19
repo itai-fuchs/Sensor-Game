@@ -1,4 +1,4 @@
-﻿using Sensor_Game;
+﻿
 using System;
 using System.Collections.Generic;
 
@@ -10,8 +10,13 @@ namespace Sensor_Game
         private static readonly Random rnd = new Random();
         static List<ISensor> sensorList = new List<ISensor>()
             {
-                new Audio_Sensor(),
-
+                new AudioSensor(),
+                new MotionSensor(),
+                new PulseSensor(),
+                new MagneticSensor(),
+                new ThermalSensor(),
+                 new SignalSensor(),
+                new LightSensor(),
             };
         public static List<ISensor> GetAllSensors()
         {

@@ -43,15 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Agents\Agent interface.cs" />
-    <Compile Include="Agents\Regular Agent.cs" />
+    <Compile Include="Agents\Agent Abstract.cs" />
+    <Compile Include="Agents\Foot Soldier.cs" />
+    <Compile Include="Agents\Organization Leader.cs" />
+    <Compile Include="Agents\Senior Commander.cs" />
+    <Compile Include="Agents\Squad Leader.cs" />
     <Compile Include="Factories\AgentFactory.cs" />
     <Compile Include="Factories\SensorFactory.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sensors\Audio Sensor.cs" />
-    <Compile Include="Sensors\Sensor interface.cs" />
+    <Compile Include="Sensors\Light Sensor.cs" />
+    <Compile Include="Sensors\Magnetic Sensor.cs" />
+    <Compile Include="Sensors\Motion Sensor.cs" />
+    <Compile Include="Sensors\Pulse Sensor.cs" />
+    <Compile Include="Sensors\Sensor Interface.cs" />
+    <Compile Include="Sensors\Signal Sensor.cs" />
+    <Compile Include="Sensors\Thermal Sensor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,11 +1,4 @@
-﻿using Sensor_Game;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Sensor_Game
+﻿namespace Sensor_Game
 {
     internal class Program
     {
